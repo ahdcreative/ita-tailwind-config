@@ -13,6 +13,5 @@
     "@semantic-release/git"
   ],
   "preset": "angular",
-  "extends": "semantic-release-npm-github-publish",
-  "dryRun": false
+  "extends": "semantic-release-npm-github-publish"
 }
