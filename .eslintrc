@@ -1,0 +1,26 @@
+{
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "ecmaVersion": 13
+  },
+  "rules": {
+    "consistent-return": "off",
+    "import/no-import-module-exports": "off",
+    "no-unused-vars": "off",
+    "import/no-extraneous-dependencies": "off",
+    "no-console": "off",
+    "implicit-arrow-linebreak": "off",
+    "no-tabs": "off",
+    "no-undef": "off",
+    "no-unreachable": "off",
+    "no-restricted-syntax": "off",
+    "no-new": "off",
+    "no-return-await": "off",
+    "no-mixed-requires": "off",
+    "max-len": "off",
+    "no-async-promise-executor": "off",
+    "prefer-promise-reject-errors": "off",
+    "global-require": "off",
+    "import/no-dynamic-require": "off"
+  }
+}

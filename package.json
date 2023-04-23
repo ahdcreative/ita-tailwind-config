@@ -1,0 +1,46 @@
+{
+  "name": "@ahdcreative/ita-tailwind-config",
+  "version": "0.0.0-dev",
+  "description": "Tailwind config for new ITA Airways Virtual website",
+  "main": "ita-tailwind-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release",
+    "eslint": "eslint --ext js",
+    "eslint:fix": "eslint -ext js --fix"
+  },
+  "keywords": [],
+  "author": "ahdcreative <hello@ahd-creative.agency> (http://ahd-creative.agency/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "@semantic-release/npm": "^10.0.3",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "semantic-release": "^21.0.1",
+    "semantic-release-npm-github-publish": "^1.5.4"
+  },
+  "files": [
+    "ita-tailwind-config.js",
+    ".eslintrc",
+    "LICENSE",
+    ".eslintrc"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahdcreative/ita-tailwind-config"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
